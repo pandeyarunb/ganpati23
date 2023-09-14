@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+Devanagari:wght@300;500&family=Josefin+Sans:wght@200&family=Lovers+Quarrel&family=Open+Sans:wght@400;600&display=swap');
+
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,
+details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,
+hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,
+small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,
+ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;text-decoration:none;font-weight:600;background:0 0}
+a,button,input,textarea{transition:all 0.3s ease 0s;}
+a:hover{text-decoration:underline;}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+*{scrollbar-width:thin;scrollbar-color:#222 #ccc;outline:none;box-sizing:border-box;font-family:'Open Sans', sans-serif;}
+h1,h3,h5{font-family:'Josefin Sans', serif;line-height:1.4;font-weight:600;}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:#eee;-webkit-box-shadow:none;box-shadow:none;border-radius:3px}
+::-webkit-scrollbar-thumb{background-color:#aaa;border-radius:3px}
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.clearfix{display:inline-block}
+.clearfix.rel{position:relative}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+
+
+html, body { overflow-x: hidden; }
+body { background: url("/assets/img/back.jpg") center center no-repeat; background-attachment: fixed; background-size: cover; }
+.logo-img { display: block; width: 48px; height: 48px; position: fixed; top: 8px; right: 8px; z-index: 999999; }
+main { min-height: calc(100vh - 3rem); padding: 2rem 0 4rem 0; }
+main p { line-height: 1.2rem; font-size: 0.8rem; text-align: center; margin: 0.5rem auto; padding: 0; }
+
+.ganesh_hero { display: block; width: 280px; margin: 0 auto;  }
+
+.accordion { display: block; margin: 2rem auto; width: 95%; max-width: 600px; }
+.tab { margin-top: -4px; border-radius: 8px; overflow: hidden; }
+.tab-title, .tab-content { font-family: 'Noto Sans Devanagari', sans-serif; width: 100%; height: auto; }
+.tab-title {display: block; line-height: 1.3rem; transition: all 0.6s ease 0s; font-size: 1.3rem; padding: 16px; background-color: #ae0b0b; font-weight: 600; color: white; }
+.tab-content { height: 0; text-align: center; padding: 0; transition: all 0.6s ease 0s; background-color: rgb(255, 255, 183); color: black; line-height: 23px; font-size: 17px; }
+
+.accordion input[type="radio"] { height: 0; width: 0; visibility: hidden; margin: 0; padding: 0; }
+.accordion input[type="radio"]:checked + .tab .tab-title { background-color: #680707; }
+.accordion input[type="radio"]:checked + .tab .tab-content { height: auto; color: black; padding: 16px; }
+
+footer { display: block; width: 100%; line-height: 2rem; font-size: 0.8rem; text-align: center; padding: 8px 0 4px 0; position: relative; }
+footer:before { display: block; content: ""; width: 80px; height: 1px; border-top: 1px solid rgb(10, 10, 10); position: absolute; top: 0.25rem; left: 50%; transform: translateX(-50%); }
